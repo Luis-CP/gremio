@@ -37,6 +37,17 @@ body {
   justify-content: space-around;
   flex-direction: column;
 }
+.login__container a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+}
+.login__container a:hover {
+  text-decoration: underline;
+}
 .login__container--form{
   display: flex;
   flex-direction: column;
